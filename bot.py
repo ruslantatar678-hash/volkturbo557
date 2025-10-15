@@ -10,7 +10,8 @@ from datetime import datetime, timedelta
 
 load_dotenv()
 
-TOKEN = os.getenv("8492898268:AAExZz9nPousVK4OvbN0d1wqHdhkKXqaMxQ")
+TOKEN = "ТВОЙ_ТОКЕН_БОТА_ОТСЮДА_@BotFather"
+
 API_KEY = os.getenv("ABC123XYZ456")
 FX_BASE = os.getenv("FX_BASE", "EUR")
 FX_QUOTE = os.getenv("FX_QUOTE", "USD")
