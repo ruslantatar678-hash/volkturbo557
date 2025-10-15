@@ -10,7 +10,27 @@ from datetime import datetime, timedelta
 
 load_dotenv()
 
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TOKEN = os.getenv("aiogram.utils.token.TokenValidationError:  Токен  недействителен  !  Он  должен  иметь тип  'str' вместо типа < class 'NoneType'> .      
+    вызвать  TokenValidationError(
+  Файл  "/usr/local/lib/python3.11/site-packages/aiogram/utils/token.py",  строка  17,  в  validate_token
+    validate_token(токен)
+  Файл  "/usr/local/lib/python3.11/site-packages/aiogram/client/bot.py",  строка  270,  в  __init__
+          ^^^^^^^^^^^^^^^^
+    бот  =  Бот(токен=ТОКЕН)
+  Файл  "/app/bot.py",  строка  18,  в  <module>
+Обратная трассировка  (последний  вызов  последний  ):
+     ==>  Распространенные  способы  устранения  неполадок  при  развертывании: https://render.com/docs/troubleshooting-deploys 
+     ==>  Вышел  со  статусом  1
+aiogram.utils.token.TokenValidationError:  Токен  недействителен  !  Он  должен  иметь тип  'str' вместо типа < class 'NoneType'> .      
+    вызвать  TokenValidationError(
+  Файл  "/usr/local/lib/python3.11/site-packages/aiogram/utils/token.py",  строка  17,  в  validate_token
+    validate_token(токен)
+  Файл  "/usr/local/lib/python3.11/site-packages/aiogram/client/bot.py",  строка  270,  в  __init__
+          ^^^^^^^^^^^^^^^^
+    бот  =  Бот(токен=ТОКЕН)
+  Файл  "/app/bot.py",  строка  18,  в  <module>
+Обратная трассировка  (последний  вызов  последний  ):
+     ==>  Развертывание...")
 API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
 FX_BASE = os.getenv("FX_BASE", "EUR")
 FX_QUOTE = os.getenv("FX_QUOTE", "USD")
