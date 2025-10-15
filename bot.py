@@ -10,8 +10,8 @@ from datetime import datetime, timedelta
 
 load_dotenv()
 
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
+TOKEN = os.getenv("8492898268:AAExZz9nPousVK4OvbN0d1wqHdhkKXqaMxQ")
+API_KEY = os.getenv("ABC123XYZ456")
 FX_BASE = os.getenv("FX_BASE", "EUR")
 FX_QUOTE = os.getenv("FX_QUOTE", "USD")
 
